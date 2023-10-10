@@ -16,10 +16,27 @@
 
 3. Écrivez un programme JavaScript qui vérifie si un nombre est pair ou impair et affiche le résultat dans la console.
 
+    function nombre(pair){
+        return pair % 2 === 0;
+    }
+    pair(5);
 
 4. Créez un tableau contenant trois noms, puis bouclez sur le tableau pour afficher chaque nom dans la console.
 
+        let fruit =["pomme","banane", "orange"];
+        let i = 0;
+        while (i <3){
+            console.log(fruit[i]);
+            i++ ;
+        }
+
 5. Écrivez un programme JavaScript qui demande à l'utilisateur son prénom, puis affiche "Bonjour, [prénom] !" dans une boîte de dialogue.
+
+    function hello(){
+        let prenom = prompt("Quel est votre prénom");
+        alert("Bonjour " + prenom + "!");
+    }
+        hello();
 
 6. Créez une fonction qui calcule l'aire d'un rectangle en prenant sa largeur et sa hauteur en entrée. Affichez le résultat dans la console.
 
